@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-10T16:35:31 IST" name="Default suite" finished-at="2024-11-10T16:39:21 IST" duration-ms="230633">
+    <groups>
+    </groups>
+    <test started-at="2024-11-10T16:35:31 IST" name="Default test" finished-at="2024-11-10T16:39:21 IST" duration-ms="230633">
+      <class name="com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:35:31 IST" name="setup" finished-at="2024-11-10T16:35:44 IST" duration-ms="13324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openFlipkartAndCloseLoginModule()[pri:1, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:35:44 IST" name="openFlipkartAndCloseLoginModule" description="Open Flipkart and close the login module" finished-at="2024-11-10T16:35:44 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkartAndCloseLoginModule -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:35:44 IST" name="captureScreenshotOnFailure" finished-at="2024-11-10T16:35:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openFlipkartAndCloseLoginModule status=SUCCESS method=TC_01_flipkart_End_to_End.openFlipkartAndCloseLoginModule()[pri:1, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="searchForMobileAndVerifyResults()[pri:2, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:35:44 IST" name="searchForMobileAndVerifyResults" description="Search for &#039;mobile&#039; and verify results message" finished-at="2024-11-10T16:35:48 IST" depends-on-methods="com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End.openFlipkartAndCloseLoginModule" duration-ms="3761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMobileAndVerifyResults -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:35:48 IST" name="captureScreenshotOnFailure" finished-at="2024-11-10T16:35:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchForMobileAndVerifyResults status=SUCCESS method=TC_01_flipkart_End_to_End.searchForMobileAndVerifyResults()[pri:2, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="addPhonesToCompareAndVerify()[pri:3, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:35:48 IST" name="addPhonesToCompareAndVerify" description="Add 10th and 11th phones to compare tray and verify" finished-at="2024-11-10T16:35:48 IST" depends-on-methods="com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End.searchForMobileAndVerifyResults" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPhonesToCompareAndVerify -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:35:48 IST" name="captureScreenshotOnFailure" finished-at="2024-11-10T16:35:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addPhonesToCompareAndVerify status=SUCCESS method=TC_01_flipkart_End_to_End.addPhonesToCompareAndVerify()[pri:3, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="openProductPageAndAddToCart()[pri:4, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:35:48 IST" name="openProductPageAndAddToCart" description="Open 10th phone&#039;s product page and add to cart" finished-at="2024-11-10T16:37:25 IST" depends-on-methods="com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End.addPhonesToCompareAndVerify" duration-ms="96514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProductPageAndAddToCart -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:37:25 IST" name="captureScreenshotOnFailure" finished-at="2024-11-10T16:37:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openProductPageAndAddToCart status=SUCCESS method=TC_01_flipkart_End_to_End.openProductPageAndAddToCart()[pri:4, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="verifyCartTotalAmount()[pri:5, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:37:25 IST" name="verifyCartTotalAmount" description="Verify total amount in cart matches product page" finished-at="2024-11-10T16:37:25 IST" depends-on-methods="com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End.openProductPageAndAddToCart" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartTotalAmount -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:37:25 IST" name="captureScreenshotOnFailure" finished-at="2024-11-10T16:37:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartTotalAmount status=SUCCESS method=TC_01_flipkart_End_to_End.verifyCartTotalAmount()[pri:5, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="increaseProductQuantityAndVerifyPopup()[pri:6, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:37:25 IST" name="increaseProductQuantityAndVerifyPopup" description="Increase product quantity in cart and verify popup message" finished-at="2024-11-10T16:37:29 IST" depends-on-methods="com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End.verifyCartTotalAmount" duration-ms="3703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseProductQuantityAndVerifyPopup -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:37:29 IST" name="captureScreenshotOnFailure" finished-at="2024-11-10T16:37:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=increaseProductQuantityAndVerifyPopup status=SUCCESS method=TC_01_flipkart_End_to_End.increaseProductQuantityAndVerifyPopup()[pri:6, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="removeProductFromCartAndVerify()[pri:7, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:37:29 IST" name="removeProductFromCartAndVerify" description="Remove product from cart and verify messages" finished-at="2024-11-10T16:39:20 IST" depends-on-methods="com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End.increaseProductQuantityAndVerifyPopup" duration-ms="111284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCartAndVerify -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:39:20 IST" name="captureScreenshotOnFailure" finished-at="2024-11-10T16:39:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCartAndVerify status=SUCCESS method=TC_01_flipkart_End_to_End.removeProductFromCartAndVerify()[pri:7, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End@185a6e9]" started-at="2024-11-10T16:39:20 IST" name="tearDown" finished-at="2024-11-10T16:39:21 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sanjaychauhan.flipkartautomation.tests.TC_01_flipkart_End_to_End -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+# Ignore compiled Java class files
+*.class 
+# Ignore log files 
+*.log 
+# Ignore temporary files created by 
+IDEs like IntelliJ or Eclipse 
+.idea/ 
+.vscode/ 
+*.iml 
+# Ignore Maven target folder 
+target/
