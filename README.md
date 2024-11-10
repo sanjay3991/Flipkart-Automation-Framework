@@ -30,20 +30,6 @@ Extent Reports: Generates detailed HTML reports showing test results, with scree
 Test Execution Logs
 Sample test execution logs from the Flipkart automation framework:
 
-LogS:
-2024-11-10 16:35:44,545 INFO  [TC_01_flipkart_End_to_End] - Starting test: Open Flipkart and close the login module
-2024-11-10 16:35:44,557 INFO  [TC_01_flipkart_End_to_End] - Flipkart homepage opened
-2024-11-10 16:35:44,557 INFO  [TC_01_flipkart_End_to_End] - Login module closed successfully
-Test Passed: openFlipkartAndCloseLoginModule
-
-2024-11-10 16:35:48,328 INFO  [TC_01_flipkart_End_to_End] - Search results message verified successfully
-Test Passed: searchForMobileAndVerifyResults
-
-2024-11-10 16:37:25,516 INFO  [TC_01_flipkart_End_to_End] - Cart total amount verified successfully
-Test Passed: verifyCartTotalAmount
-
-2024-11-10 16:37:32,371 INFO  [TC_01_flipkart_End_to_End] - Product removed from cart
-Test Passed: removeProductFromCartAndVerify
 Extent Report Summary
 The Extent Report provides a comprehensive summary of test execution, including detailed pass/fail results and captured screenshots for any test failures.
 
